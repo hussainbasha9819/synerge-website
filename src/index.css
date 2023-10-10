@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.Name{
+    color: #b40404;
+}
+.Icon{
+    color: #b40404;  
+}
+.Contact{
+    background: linear-gradient(0.25turn, #336ae0, rgb(212, 116, 132));
+}
+.Span{
+    background-color:#b40404 ;
+}
