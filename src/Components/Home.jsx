@@ -93,7 +93,7 @@ document.getElementById("CONTACT").style.display="none"
   <p className='phone:text-[13px] '>We have been designing and building offices for our clients. We are extremely well resourced, experienced and passionate about delivering exceptional services. There is no uncertainty in what we wish to achieve. We deliver on our promises. Everything we do is tailored exact requirements. We believe that everyone deserves a great environment to work in and we create it.</p>
   </span>
 </div>
-<div id='vedio' className='w-full h-[70vh] phone:w-full phone:h-[50vh] phone:flex phone:flex-col phone:top-[42%] phone:bg-red-400 phone:absolute phone:items-center phone:justify-center flex flex-col   top-[46.5%]   absolute items-center justify-center '>
+<div id='vedio' className='w-full h-[70vh] phone:w-full phone:h-[50vh] phone:flex phone:flex-col phone:top-[42%]  phone:absolute phone:items-center phone:justify-center flex flex-col   top-[46.5%]   absolute items-center justify-center '>
   <h1 className='text-2xl font-bold text-gray-400  '>WATCH THE VIDEO</h1>
   <i className=" Icon fa-regular fa-circle-play mt-[40px]  text-[100px] "></i>
 </div>
@@ -177,7 +177,7 @@ Our meeting rooms include plug-and-play Smart TV for video conferencing to make 
     <img className='w-[500px] h-[350px] phone:w-[400px] phone:h-[150px] ' src="https://www.synergeworkspace.com/image-path/pictures/conference%20rooms.png" alt="" />
   </div>
 </div>
-<div className="Contact w-full h-[120vh] flex absolute top-[63.5%] phone:top-[55%]    ">
+<div className="Contact w-full h-[118vh] phone:w-full  flex absolute top-[63.5%] phone:top-[55%]    ">
 <section className=" w-full">
   <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
       <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Contact Us</h2>
@@ -200,10 +200,10 @@ Our meeting rooms include plug-and-play Smart TV for video conferencing to make 
   </div>
 </section>
 </div>
-<div className="w-full h-[51.5vh]  flex absolute phone:top-[86.5%] top-[92.7%] left-0 bg-black ">  
+<div className="w-full h-[51.5vh]  flex absolute phone:top-[86%] top-[92.3%] left-0 bg-black ">  
 <div className="w-full p-4 text-center   rounded-lg shadow sm:p-8 ">
 <img className='w-[15%] ml-2 mt-[10%]  absolute ' src="https://www.synergeworkspace.com/images/logo.png" alt="" />
-    <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white phone:text-[15px] phone:mt-7 ">Work fast from anywhere</h5>
+    <h5 className="mb-2 text-3xl font-bold text-gray-900 dark:text-white phone:text-[15px] phone:mt-7 phone:text-white ">Work fast from anywhere</h5>
     <span className='w-1/4 h-16  flex items-center justify-center gap-6 ml-[37.5%] '>
     <a href=""><i className="fa-brands fa-square-facebook text-[40px] text-blue-500 "></i></a>
      <a href=""><i className="fa-brands fa-square-instagram text-[40px] text-pink-500 "></i></a>
@@ -233,7 +233,7 @@ Our meeting rooms include plug-and-play Smart TV for video conferencing to make 
 <a href="https://api.whatsapp.com/send?phone=919663933767"><span className='w-[70px] h-[70px] rounded-full flex items-center justify-center bg-green-300  top-[85%] fixed left-2  '>
 <i className="fa-brands fa-whatsapp text-4xl "></i>
 </span></a>
-<div id='CONTACT' className="w-[13%] phone:w-[30%] phone:h-[320px] phone:flex phone:flex-col phone:text-[12px] phone:top-10 h-[300px] hidden rounded-lg gap-1 pl-2 text-lg top-[5%] left-[7%] bg-white opacity-70  flex-col absolute  ">
+<div id='CONTACT' className="w-[13%] phone:w-[30%] phone:h-[320px] phone:hidden phone:flex-col phone:text-[12px] phone:top-10 h-[300px] hidden rounded-lg gap-1 pl-2 text-lg top-[5%] left-[7%] bg-white opacity-70  flex-col absolute  ">
   <span onClick={we} className='hover:border-b-2 hover:border-gray-500 cursor-pointer '>We</span>
   <span onClick={Work}  className='hover:border-b-2 hover:border-gray-500 cursor-pointer '>Co - Working Space</span>
   <span className='hover:border-b-2 hover:border-gray-500 cursor-pointer '>Locations</span>
