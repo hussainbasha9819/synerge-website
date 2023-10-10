@@ -50,10 +50,9 @@ document.getElementById("CONTACT").style.display="none"
   return (
     <>
     <div  className="w-full h-[410vh] phone:w-full phone:h-[380vh]   relative flex flex-col  ">
-<div className="w-full h-[120vh] phone:w-full phone:h-[60vh] phone:flex phone:flex-col flex flex-col bg-[url('C:\Users\Admin\Desktop\synerge\vite-project\src\assets\sgnerge-images1.jpg')] bg-no-repeat bg-cover bg-center cursor-pointer ">
+<div className="w-full h-[120vh] phone:w-full phone:h-[60vh] phone:flex phone:flex-col flex flex-col bg-[url('https://cofynd-staging.s3.ap-south-1.amazonaws.com/images/original/9b55daf637ce6177ccbff32176a1a561e293bfee.jpg')] bg-no-repeat bg-cover bg-center cursor-pointer ">
 <div id='Nav' className="w-full h-[50px] phone:w-full phone:h-[50px] phone:flex phone:items-center phone:justify-between  flex items-center justify-between  ">
 <img className='w-[15%] ml-20 phone:ml-10 phone:w-[20%] ' src="https://www.synergeworkspace.com/images/logo.png" alt="" />
-
 <i onClick={OP} id='more'  className="Icon fa-solid fa-bars text-4xl mr-20 phone:mr-10 phone:text-2xl  "></i>
 <i onClick={CL} id='wrong' className="Icon fa-solid fa-xmark text-5xl mr-20 phone:mr-10 phone:text-2xl hidden "></i>
 </div>
@@ -62,8 +61,8 @@ document.getElementById("CONTACT").style.display="none"
   <img className='w-[25%] phone:w-[27%] ' src="https://www.synergeworkspace.com/images/logo.png" alt="" />
 </div>
 </div>
-<div id='Vision' className="w-full h-[90vh] phone:w-full phone:bg-green-300 phone:h-[100vh] phone:gap-1 phone:absolute phone:top-[15.8%] phone:flex phone:flex-col phone:items-center phone:justify-center     flex    justify-center absolute top-[24%]  ">
-  <div className="w-[30%] phone:w-[50%] phone:h-[30vh] phone:flex phone:flex-col phone:items-center h-[80vh] shadow-lg  flex flex-col items-center hover:bg-[url('C:\Users\Admin\Desktop\synerge\vite-project\src\assets\synerge-img2.jpeg')] hover:bg-no-repeat hover:bg-current hover:bg-cover   bg-white ">
+<div id='Vision' className="w-full h-[90vh] phone:w-full  phone:h-[100vh] phone:gap-1 phone:absolute phone:top-[15.8%] phone:flex phone:flex-col phone:items-center phone:justify-center     flex    justify-center absolute top-[24%]  ">
+  <div className="w-[30%] phone:w-[50%] phone:h-[30vh] phone:flex phone:flex-col phone:items-center h-[80vh] shadow-lg  flex flex-col items-center hover:bg-[url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2CiAtYzEXDZhny43_NIDij5mqwKQi7pt3wGLPiLieNd1KTBTZeaYI-neWE2dD2s-snhc&usqp=CAU')] hover:bg-no-repeat hover:bg-current hover:bg-cover   bg-white ">
   <i className=" fa-regular fa-eye text-5xl mt-6 text-gray-500 phone:text-3xl phone:mt-5 "></i>
   <h1 className='Name text-2xl font-bold mt-7 phone:text-xl phone:mt-0 '>VISION</h1>
   <p className='text-3xl font-bold text-gray-400 mt-28 phone:text-lg phone:mt-0 '>An Affordable Space </p>
@@ -86,7 +85,7 @@ document.getElementById("CONTACT").style.display="none"
   <p className='text-3xl font-bold text-gray-400 phone:text-lg  '>Your Growth</p>
   </div>
 </div>
-<div id='wes' className="w-full phone:w-full phone:h-[70vh] phone:bg-green-800 phone:flex-col phone:items-center phone:justify-center phone:gap-1 phone: h-[80vh] hidden flex-col gap-3 items-center justify-center  ">
+<div id='wes' className="w-full phone:w-full phone:h-[70vh]  phone:flex-col phone:items-center phone:justify-center phone:gap-1 phone: h-[80vh] hidden flex-col gap-3 items-center justify-center  ">
 <h1 className='text-5xl font-semibold phone:text-3xl '>we</h1>
   <span className='w-[90%] h-[70vh] flex flex-col gap-10 phone:w-[90%] phone:h-[70vh] phone:flex phone:flex-col phone:gap-5  '>
   <p className='phone:text-[13px] '>We found SYNERGE for people just like us: curious, hardworking, sociable entrepreneurs. People who want to focus on creating great, innovative products and businesses without worrying about rent, electricity or running out of coffee.</p>
@@ -98,7 +97,7 @@ document.getElementById("CONTACT").style.display="none"
   <h1 className='text-2xl font-bold text-gray-400  '>WATCH THE VIDEO</h1>
   <i className=" Icon fa-regular fa-circle-play mt-[40px]  text-[100px] "></i>
 </div>
-<div id='partners' className="w-full hidden h-[80vh]  phone:w-full phone:h-[79vh] phone:bg-pink-400  flex-col  ">
+<div id='partners' className="w-full hidden h-[80vh]  phone:w-full phone:h-[79vh]   flex-col  ">
 <span className='w-full h-[100px] flex items-center  justify-center phone:w-full phone:h-[60px] phone:flex phone:flex-col phone:items-center phone:justify-center '>  <h1 className='text-5xl phone:text-2xl font-medium '>Partners</h1>
 </span>
   <span className='w-full h-[50vh] phone:w-full phone:h-[73vh]  phone:flex phone:flex-col phone:items-center phone:justify-center  flex items-center justify-center gap-10  '>
@@ -106,7 +105,7 @@ document.getElementById("CONTACT").style.display="none"
     <img className='w-[400px] h-[250px]' src="https://www.synergeworkspace.com/images/partner_2.png" alt="" />
   </span>
 </div>
-<div id='desk' className="w-full h-[70vh] hidden phone:w-full phone:bg-green-600 phone:h-[74.5vh] phone:flex phone:flex-col phone:items-center phone:justify-center  ">
+<div id='desk' className="w-full h-[70vh] hidden phone:w-full  phone:h-[74.5vh] phone:hidden phone:flex-col phone:items-center phone:justify-center  ">
   <div className="w-1/2 phone:w-[70%] phone:h-[32vh] phone:flex phone:items-center phone:justify-center h-[70vh] flex items-center justify-center ">
     <img className='w-[500px] h-[350px] phone:w-[400px] phone:h-[150px] ' src="https://www.synergeworkspace.com/image-path/pictures/open%20hot%20desk.png" alt="" />
   </div>
@@ -117,7 +116,7 @@ document.getElementById("CONTACT").style.display="none"
     </span>
   </div>
 </div>
-<div id='space' className="w-full h-[70vh] hidden phone:w-full phone:bg-pink-600 phone:h-[74.5vh] phone:flex phone:flex-col-reverse phone:items-center phone:justify-center  ">
+<div id='space' className="w-full h-[70vh] hidden phone:w-full  phone:h-[74.5vh] phone:hidden phone:flex-col-reverse phone:items-center phone:justify-center  ">
   <div className='w-1/2 h-[70vh] phone:w-[70%] phone:h-[42vh] phone:flex phone:items-center phone:justify-center flex items-center justify-center '>
     <span className='Span w-[95%] h-[55vh] phone:w-[100%] phone:h-[40vh] phone:flex phone:flex-col  rounded-lg pl-5  pr-5 text-white  '>
       <h4 className='text-3xl font-medium phone:text-xl '>Shared Cabin Space</h4>
@@ -128,7 +127,7 @@ document.getElementById("CONTACT").style.display="none"
     <img className='w-[500px] h-[350px] phone:w-[400px] phone:h-[150px] ' src="https://www.synergeworkspace.com/image-path/pictures/shared%20cabin.png" alt="" />
   </div>
 </div>
-<div id='Corporate' className="w-full h-[70vh] hidden phone:w-full phone:bg-green-600 phone:h-[74.5vh] phone:flex phone:flex-col phone:items-center phone:justify-center  ">
+<div id='Corporate' className="w-full h-[70vh] hidden phone:w-full  phone:h-[74.5vh] phone:hidden phone:flex-col phone:items-center phone:justify-center  ">
   <div className="w-1/2 h-[70vh] phone:w-[70%] phone:h-[32vh] phone:flex phone:items-center phone:justify-center  flex items-center justify-center ">
     <img className='w-[500px] h-[350px] phone:w-[400px] phone:h-[150px] ' src="https://www.synergeworkspace.com/image-path/pictures/corporate%20space.png" alt="" />
   </div>
@@ -140,7 +139,7 @@ document.getElementById("CONTACT").style.display="none"
     </span>
   </div>
 </div>
-<div id='Director' className="w-full h-[70vh] hidden phone:w-full phone:bg-pink-600 phone:h-[74.5vh] phone:flex phone:flex-col-reverse phone:items-center phone:justify-center  ">
+<div id='Director' className="w-full h-[70vh] hidden phone:w-full  phone:h-[74.5vh] phone:hidden phone:flex-col-reverse phone:items-center phone:justify-center  ">
   <div className='w-1/2 h-[70vh] phone:w-[70%] phone:h-[42vh] phone:flex phone:items-center phone:justify-center flex items-center justify-center '>
     <span className='Span w-[95%] h-[55vh] phone:w-[100%] phone:h-[40vh] phone:flex phone:flex-col  rounded-lg pl-5  pr-5 text-white  '>
       <h4 className='text-3xl font-medium phone:text-xl '>Private</h4>
@@ -152,7 +151,7 @@ document.getElementById("CONTACT").style.display="none"
     <img className='w-[500px] h-[350px] phone:w-[400px] phone:h-[150px] ' src="https://www.synergeworkspace.com/image-path/pictures/private%20director%20space.png" alt="" />
   </div>
 </div>
-  <div id='2-4 Seater' className="w-full h-[70vh] hidden phone:w-full phone:bg-green-600 phone:h-[74.5vh] phone:flex phone:flex-col-reverse phone:items-center phone:justify-center   ">
+  <div id='2-4 Seater' className="w-full h-[70vh] hidden phone:w-full  phone:h-[74.5vh] phone:hidden phone:flex-col-reverse phone:items-center phone:justify-center   ">
   <div className="w-1/2 h-[70vh] phone:w-[70%] phone:h-[32vh] phone:flex phone:items-center phone:justify-center flex items-center justify-center ">
     <img className='w-[500px] h-[350px] phone:w-[400px] phone:h-[150px] ' src="https://www.synergeworkspace.com/image-path/pictures/discussion%20space.png" alt="" />
   </div>
@@ -164,7 +163,7 @@ document.getElementById("CONTACT").style.display="none"
     </span>
   </div>
 </div>
-<div id='7-12 Seater' className="w-full h-[70vh] hidden phone:w-full phone:bg-pink-600 phone:h-[74.5vh] phone:flex phone:flex-col-reverse phone:items-center phone:justify-center  ">
+<div id='7-12 Seater' className="w-full h-[70vh] hidden phone:w-full  phone:h-[74.5vh] phone:hidden phone:flex-col-reverse phone:items-center phone:justify-center  ">
   <div className='w-1/2 h-[70vh] phone:w-[70%] phone:h-[42vh] phone:flex phone:items-center phone:justify-center flex items-center justify-center '>
     <span className='Span w-[95%] h-[55vh] phone:w-[100%] phone:h-[40vh] phone:flex phone:flex-col  rounded-lg pl-5  pr-5 text-white  '>
       <h4 className='text-3xl font-medium phone:text-xl '>7 - 12 Seater</h4>
